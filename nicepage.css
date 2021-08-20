@@ -34424,7 +34424,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: 21px auto 0;
+  margin: 23px auto;
 }
 
 .u-header .u-nav-1 {
@@ -34435,19 +34435,9 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-2 {
   font-size: 1.25rem;
 }
-
-.u-header .u-btn-1 {
-  margin: -39px auto 19px -69px;
-  padding: 9px 15px 9px 14px;
-}
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
     width: auto;
-  }
-
-  .u-header .u-btn-1 {
-    margin-top: -39px;
-    margin-left: 0;
   }
 }
 
