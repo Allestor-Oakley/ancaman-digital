@@ -96,19 +96,19 @@
     margin-top: -309px;
     margin-right: calc(((100% - 340px) / 2));
   }
-}.u-section-2 {
+}.u-section-2 .u-sheet-1 {
   min-height: 100vh;
 }
 
 .u-section-2 .u-text-1 {
-  margin: 60px auto 0 calc(((100% - 1140px) / 2) + 458px);
+  margin: 60px auto 0 458px;
 }
 
 .u-section-2 .u-gallery-1 {
   height: 666px;
   grid-gap: 17px 17px;
-  width: 1140px;
-  margin: 23px auto;
+  margin-top: 10px;
+  margin-bottom: 36px;
 }
 
 .u-section-2 .u-gallery-inner-1 {
@@ -171,8 +171,6 @@
 @media (max-width: 1199px) {
   .u-section-2 .u-gallery-1 {
     height: 549px;
-    width: 940px;
-    margin-left: calc(((100% - 1140px) / 2) + 100px);
   }
 
   .u-section-2 .u-gallery-inner-1 {
@@ -183,8 +181,6 @@
 @media (max-width: 991px) {
   .u-section-2 .u-gallery-1 {
     height: 1682px;
-    width: 720px;
-    margin-left: calc(((100% - 1140px) / 2) + 210px);
   }
 
   .u-section-2 .u-gallery-inner-1 {
@@ -195,21 +191,17 @@
 @media (max-width: 767px) {
   .u-section-2 .u-gallery-1 {
     height: 1262px;
-    width: 540px;
     margin-top: 101px;
-    margin-left: calc(((100% - 1140px) / 2) + 300px);
   }
 }
 
 @media (max-width: 575px) {
   .u-section-2 .u-text-1 {
-    margin-left: calc(((100% - 1140px) / 2) + 495px);
+    margin-left: 495px;
   }
 
   .u-section-2 .u-gallery-1 {
     height: 795px;
-    width: 340px;
-    margin-left: calc(((100% - 1140px) / 2) + 400px);
   }
 }.u-section-3 {
   background-image: none;
@@ -314,8 +306,8 @@
 
 .u-section-5 .u-gallery-1 {
   height: 666px;
-  margin-top: 22px;
-  margin-bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 36px;
   grid-gap: 17px 17px;
   background-image: none;
 }
@@ -480,7 +472,7 @@
 .u-section-7 .u-image-2 {
   width: 375px;
   height: 375px;
-  margin: -429px calc(((100% - 1140px) / 2)) 60px auto;
+  margin: -429px calc(((100% - 1140px) / 2)) 0 auto;
 }
 
 @media (max-width: 1199px) {
@@ -574,8 +566,8 @@
 
 .u-section-8 .u-gallery-1 {
   height: 666px;
-  margin-top: 22px;
-  margin-bottom: 0;
+  margin-top: 10px;
+  margin-bottom: 36px;
   grid-gap: 17px 17px;
 }
 
@@ -698,7 +690,7 @@
 .u-section-9 .u-image-1 {
   width: 570px;
   height: 391px;
-  margin: -380px auto 60px 0;
+  margin: -380px auto 0 0;
 }
 
 @media (max-width: 1199px) {
@@ -820,8 +812,8 @@
 
 .u-section-11 .u-gallery-1 {
   height: 666px;
-  margin-top: 22px;
-  margin-bottom: 23px;
+  margin-top: 10px;
+  margin-bottom: 36px;
   grid-gap: 17px 17px;
 }
 
@@ -1009,4 +1001,10 @@
 	50% {
 		transform : rotate(10deg);
 	}
+}
+.full-view--page {
+	min-height : 100vh;
+}
+.contoh-kasus-page {
+	min-height : 100vh
 }
