@@ -1,5 +1,5 @@
 .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("images/background.png");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("images/background.png?rand=3628");
   background-position: 50% 50%;
 }
 
@@ -13,7 +13,7 @@
 
 .u-section-1 .u-text-2 {
   width: 826px;
-  margin: 16px auto 60px;
+  margin: 16px auto 0;
 }
 
 @media (max-width: 991px) {
@@ -56,7 +56,7 @@
 }
 
 .u-section-2 .u-list-item-1 {
-  animation-duration: 750ms;
+  animation-duration: 500ms;
   box-shadow: 0 2px 8px 0 rgba(128,128,128,1);
 }
 
@@ -81,7 +81,7 @@
 }
 
 .u-section-2 .u-list-item-2 {
-  animation-duration: 750ms;
+  animation-duration: 500ms;
   box-shadow: 0 2px 8px 0 rgba(128,128,128,1);
 }
 
@@ -106,7 +106,7 @@
 }
 
 .u-section-2 .u-list-item-3 {
-  animation-duration: 750ms;
+  animation-duration: 500ms;
   box-shadow: 0 2px 8px 0 rgba(128,128,128,1);
 }
 
@@ -131,7 +131,7 @@
 }
 
 .u-section-2 .u-list-item-4 {
-  animation-duration: 750ms;
+  animation-duration: 500ms;
   box-shadow: 0 2px 8px 0 rgba(128,128,128,1);
 }
 
@@ -266,6 +266,7 @@
 .u-section-3 .u-icon-1 {
   height: 107px;
   width: 107px;
+  background-image: none;
   margin: 0 auto;
 }
 
@@ -288,6 +289,7 @@
 .u-section-3 .u-icon-2 {
   height: 107px;
   width: 107px;
+  background-image: none;
   margin: 0 auto;
 }
 
@@ -310,6 +312,7 @@
 .u-section-3 .u-icon-3 {
   height: 107px;
   width: 107px;
+  background-image: none;
   margin: 0 auto;
 }
 
@@ -332,6 +335,7 @@
 .u-section-3 .u-icon-4 {
   height: 107px;
   width: 107px;
+  background-image: none;
   margin: 0 auto;
 }
 
@@ -429,22 +433,257 @@
   .u-section-3 .u-list-1 {
     width: 340px;
   }
-}h1.title-heading1 {
+}.u-section-4 {
+  background-image: none;
+}
+
+.u-section-4 .u-sheet-1 {
+  min-height: 100vh;
+}
+
+.u-section-4 .u-text-1 {
+  margin: 127px auto 0;
+}
+
+.u-section-4 .u-layout-wrap-1 {
+  width: 781px;
+  margin: 62px auto 43px;
+}
+
+.u-section-4 .u-layout-cell-1 {
+  min-height: 626px;
+  background-image: none;
+}
+
+.u-section-4 .u-container-layout-1 {
+  box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.4);
+  padding: 9px 30px;
+}
+
+.u-section-4 .u-image-1 {
+  width: 50px;
+  height: 50px;
+  background-image: url("images/whatsapp-logo.png");
+  background-position: 50% 50%;
+  box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.4);
+  margin: 415px auto 0 43px;
+}
+
+.u-section-4 .u-image-2 {
+  width: 50px;
+  height: 50px;
+  background-image: url("images/instagram-logo.png");
+  background-position: 50% 50%;
+  box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.4);
+  margin: -50px 43px 0 auto;
+}
+
+.u-section-4 .u-image-3 {
+  width: 194px;
+  height: 194px;
+  object-position: 50% 0%;
+  box-shadow: 3px 3px 8px 0 rgba(128,128,128,1);
+  background-image: url("images/Rafi-pramuka.jpg");
+  background-position: 50% 0%;
+  margin: -465px auto 0;
+}
+
+.u-section-4 .u-text-2 {
+  margin: 33px 0 0 auto;
+}
+
+.u-section-4 .u-text-3 {
+  font-weight: normal;
+  margin: 30px 18px 0;
+}
+
+.u-section-4 .u-layout-cell-2 {
+  min-height: 626px;
+  background-image: none;
+}
+
+.u-section-4 .u-container-layout-2 {
+  box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.4);
+  padding: 9px 30px;
+}
+
+.u-section-4 .u-image-4 {
+  width: 50px;
+  height: 50px;
+  background-image: url("images/whatsapp-logo.png");
+  background-position: 50% 50%;
+  box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.4);
+  margin: 409px auto 0 43px;
+}
+
+.u-section-4 .u-image-5 {
+  width: 50px;
+  height: 50px;
+  background-image: url("images/instagram-logo.png");
+  background-position: 50% 50%;
+  box-shadow: 2px 2px 8px 0 rgba(0,0,0,0.4);
+  margin: -50px 43px 0 auto;
+}
+
+.u-section-4 .u-image-6 {
+  width: 194px;
+  height: 194px;
+  object-position: 50% 0%;
+  box-shadow: 3px 3px 8px 0 rgba(128,128,128,1);
+  background-image: url("images/Yusuf-Jas.jpeg");
+  background-position: 50% 0%;
+  margin: -459px auto 0;
+}
+
+.u-section-4 .u-text-4 {
+  margin: 33px 17px 0 12px;
+}
+
+.u-section-4 .u-text-5 {
+  font-weight: normal;
+  margin: 29px 18px 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-4 .u-layout-wrap-1 {
+    position: relative;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-4 .u-layout-wrap-1 {
+    width: 720px;
+  }
+
+  .u-section-4 .u-layout-cell-1 {
+    min-height: 622px;
+  }
+
+  .u-section-4 .u-image-1 {
+    margin-top: 455px;
+  }
+
+  .u-section-4 .u-image-3 {
+    margin-top: -505px;
+  }
+
+  .u-section-4 .u-text-3 {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  .u-section-4 .u-layout-cell-2 {
+    min-height: 622px;
+  }
+
+  .u-section-4 .u-text-4 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .u-section-4 .u-text-5 {
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-4 .u-layout-wrap-1 {
+    width: 540px;
+  }
+
+  .u-section-4 .u-layout-cell-1 {
+    min-height: 532px;
+  }
+
+  .u-section-4 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-4 .u-image-1 {
+    margin-top: 364px;
+  }
+
+  .u-section-4 .u-image-3 {
+    margin-top: -414px;
+  }
+
+  .u-section-4 .u-layout-cell-2 {
+    min-height: 526px;
+  }
+
+  .u-section-4 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-4 .u-image-4 {
+    margin-top: 358px;
+  }
+
+  .u-section-4 .u-image-6 {
+    margin-top: -408px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-4 .u-layout-wrap-1 {
+    width: 340px;
+  }
+
+  .u-section-4 .u-layout-cell-1 {
+    min-height: 545px;
+  }
+
+  .u-section-4 .u-image-1 {
+    margin-top: 377px;
+  }
+
+  .u-section-4 .u-image-3 {
+    margin-top: -427px;
+  }
+
+  .u-section-4 .u-text-3 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-4 .u-layout-cell-2 {
+    min-height: 539px;
+  }
+
+  .u-section-4 .u-image-4 {
+    margin-top: 371px;
+  }
+
+  .u-section-4 .u-image-6 {
+    margin-top: -421px;
+  }
+
+  .u-section-4 .u-text-5 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}/*Section 1*/
+h1.title-heading1 {
 	font-family: 'Orbitron', sans-serif;
 }
-.home-page {
-	background-image : linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,1)), url(images/background.png)
+/*Section 2*/
+.button-to-page div{
+	pointer-events : none;
 }
-.button-to-page > div div{
+.button-to-page div div {
 	transition: transform 0.2s, opacity 0.1s;
+	pointer-events : auto;
 }
-.button-to-page > div:hover div {
+.button-to-page > div:hover div:not(:hover) {
 	opacity : 0.5;
 }
-.button-to-page > div div:hover {
+.button-to-page > div:hover div:hover {
 	transform : scale(1.1);
-	opacity : 1;
 }
+/*Section 3*/
 .button-to-website > div div{
 	transition : opacity 0.3s ease-in-out;
 }
@@ -453,4 +692,22 @@
 }
 .button-to-website > div div:hover {
 	opacity : 1;
-} 
+}
+/*Section 4*/
+.whatsapp-logo, .instagram-logo{
+	opacity : 0;
+	bottom : 25px;
+	transition : opacity 0.2s, bottom 0.2s;
+}
+.button-to-contact > div > div > div{
+	transition: transform 0.2s;
+	pointer-events : auto;
+}
+.button-to-contact > div > div > div:hover{
+	transform : scale(1.06);
+}
+.button-to-contact div > div > div:hover > div > div.whatsapp-logo,
+.button-to-contact div > div > div:hover > div > div.instagram-logo{
+	opacity : 1;
+	bottom : 0px;
+}
