@@ -105,18 +105,18 @@
 }
 
 .u-section-2 .u-text-1 {
-  margin: 60px auto 0 458px;
+  margin: 60px auto 0;
 }
 
 .u-section-2 .u-gallery-1 {
-  height: 666px;
+  height: 372px;
   grid-gap: 17px 17px;
-  margin-top: 10px;
-  margin-bottom: 36px;
+  width: 1140px;
+  margin: 121px auto 60px;
 }
 
 .u-section-2 .u-gallery-inner-1 {
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   grid-gap: 17px 17px;
 }
 
@@ -159,22 +159,21 @@
   padding: 20px;
 }
 
-.u-section-2 .u-gallery-item-4 {
-  box-shadow: 0px 5px 13px 0px rgba(128,128,128,1);
-}
-
-.u-section-2 .u-back-slide-4 {
-  transition-duration: 0.5s;
-}
-
-.u-section-2 .u-over-slide-4 {
-  background-image: linear-gradient(0deg, rgba(64,64,64,0.8), rgba(64,64,64,0.8));
-  padding: 20px;
-}
-
 @media (max-width: 1199px) {
   .u-section-2 .u-gallery-1 {
-    height: 549px;
+    height: 307px;
+    width: 940px;
+  }
+
+  .u-section-2 .u-gallery-inner-1 {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-gallery-1 {
+    height: 705px;
+    width: 720px;
   }
 
   .u-section-2 .u-gallery-inner-1 {
@@ -182,9 +181,11 @@
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
   .u-section-2 .u-gallery-1 {
-    height: 1682px;
+    height: 1586px;
+    margin-top: 101px;
+    width: 540px;
   }
 
   .u-section-2 .u-gallery-inner-1 {
@@ -192,20 +193,10 @@
   }
 }
 
-@media (max-width: 767px) {
-  .u-section-2 .u-gallery-1 {
-    height: 1262px;
-    margin-top: 101px;
-  }
-}
-
 @media (max-width: 575px) {
-  .u-section-2 .u-text-1 {
-    margin-left: 495px;
-  }
-
   .u-section-2 .u-gallery-1 {
-    height: 795px;
+    height: 999px;
+    width: 340px;
   }
 }.u-section-3 {
   background-image: none;
@@ -216,7 +207,6 @@
 }
 
 .u-section-3 .u-text-1 {
-  font-weight: 400;
   margin: 74px auto 0;
 }
 
@@ -376,6 +366,10 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-3 .u-text-1 {
+    font-weight: normal;
+  }
+
   .u-section-3 .u-slider-1 {
     height: auto;
   }
@@ -637,17 +631,21 @@
 }
 
 .u-section-4 .u-text-1 {
-  margin: 176px -570px 0 570px;
+  margin: 90px 0 0;
+}
+
+.u-section-4 .u-text-2 {
+  margin: 103px -570px 0 570px;
 }
 
 .u-section-4 .u-image-1 {
   width: 570px;
   height: 391px;
-  margin: -425px auto 60px -35px;
+  margin: -355px auto -443px -32px;
 }
 
 @media (max-width: 1199px) {
-  .u-section-4 .u-text-1 {
+  .u-section-4 .u-text-2 {
     margin-left: 0;
     margin-right: 0;
   }
@@ -674,4 +672,7 @@
 	100% {
 		transform : translateX(-100vw);
 	}
+}
+h1.judul-hack {
+	font-family: 'Orbitron', sans-serif;
 }
