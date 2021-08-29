@@ -453,6 +453,7 @@
 .u-section-4 .u-layout-cell-1 {
   min-height: 626px;
   background-image: none;
+  animation-duration: 1000ms;
 }
 
 .u-section-4 .u-container-layout-1 {
@@ -500,6 +501,7 @@
 .u-section-4 .u-layout-cell-2 {
   min-height: 626px;
   background-image: none;
+  animation-duration: 1000ms;
 }
 
 .u-section-4 .u-container-layout-2 {
