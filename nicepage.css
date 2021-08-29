@@ -35161,7 +35161,10 @@ a.u-link.u-text-hover-grey-90:hover {
 
 
 
- /*begin-variables custom-site-css*/section {
+ /*begin-variables custom-site-css*/#judul-hacking, #contoh-hacking, #tips-hacking, #penanganan-hacking,
+#judul-hoaks, #contoh-hoaks, #tips-hoaks, #penanganan-hoaks,
+#judul-malware, #contoh-malware, #tips-malware, #penanganan-malware,
+#judul-scam, #contoh-scam, #tips-scam, #penanganan-scam{
 	height : 100vh;
 }/*end-variables custom-site-css*/
  /*begin-variables base-font-size*/ 
