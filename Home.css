@@ -1,5 +1,5 @@
 .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("images/background.png?rand=3628");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("images/background.png");
   background-position: 50% 50%;
 }
 
@@ -310,7 +310,7 @@
 }
 
 .u-section-3 .u-icon-3 {
-  height: 107px;
+  height: 120px;
   width: 107px;
   background-image: none;
   margin: 0 auto;
