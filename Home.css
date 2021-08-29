@@ -442,12 +442,12 @@
 }
 
 .u-section-4 .u-text-1 {
-  margin: 127px auto 0;
+  margin: 64px auto 0;
 }
 
 .u-section-4 .u-layout-wrap-1 {
   width: 781px;
-  margin: 62px auto 43px;
+  margin: 64px auto 60px;
 }
 
 .u-section-4 .u-layout-cell-1 {
@@ -494,7 +494,7 @@
 
 .u-section-4 .u-text-3 {
   font-weight: normal;
-  margin: 30px 18px 0;
+  margin: 40px 18px 0;
 }
 
 .u-section-4 .u-layout-cell-2 {
@@ -541,7 +541,7 @@
 
 .u-section-4 .u-text-5 {
   font-weight: normal;
-  margin: 29px 18px 0;
+  margin: 40px 18px 0;
 }
 
 @media (max-width: 1199px) {
@@ -557,14 +557,6 @@
 
   .u-section-4 .u-layout-cell-1 {
     min-height: 622px;
-  }
-
-  .u-section-4 .u-image-1 {
-    margin-top: 455px;
-  }
-
-  .u-section-4 .u-image-3 {
-    margin-top: -505px;
   }
 
   .u-section-4 .u-text-3 {
@@ -601,14 +593,6 @@
     padding-right: 10px;
   }
 
-  .u-section-4 .u-image-1 {
-    margin-top: 364px;
-  }
-
-  .u-section-4 .u-image-3 {
-    margin-top: -414px;
-  }
-
   .u-section-4 .u-layout-cell-2 {
     min-height: 526px;
   }
@@ -636,14 +620,6 @@
     min-height: 545px;
   }
 
-  .u-section-4 .u-image-1 {
-    margin-top: 377px;
-  }
-
-  .u-section-4 .u-image-3 {
-    margin-top: -427px;
-  }
-
   .u-section-4 .u-text-3 {
     margin-left: 0;
     margin-right: 0;
@@ -665,7 +641,10 @@
     margin-left: 0;
     margin-right: 0;
   }
-}/*Section 1*/
+}:root {
+	--s4-dur : 0.3s;
+}
+/*Section 1*/
 h1.title-heading1 {
 	font-family: 'Orbitron', sans-serif;
 }
@@ -697,10 +676,10 @@ h1.title-heading1 {
 .whatsapp-logo, .instagram-logo{
 	opacity : 0;
 	bottom : 25px;
-	transition : opacity 0.2s, bottom 0.2s;
+	transition : opacity var(--s4-dur), bottom var(--s4-dur), transform var(--s4-dur);
 }
 .button-to-contact > div > div > div{
-	transition: transform 0.2s;
+	transition: transform var(--s4-dur);
 	pointer-events : auto;
 }
 .button-to-contact > div > div > div:hover{
@@ -709,5 +688,9 @@ h1.title-heading1 {
 .button-to-contact div > div > div:hover > div > div.whatsapp-logo,
 .button-to-contact div > div > div:hover > div > div.instagram-logo{
 	opacity : 1;
-	bottom : 0px;
+	bottom : -10px;
+}
+.button-to-contact div > div > div:hover > div > div.whatsapp-logo:hover,
+.button-to-contact div > div > div:hover > div > div.instagram-logo:hover{
+	transform : scale(1.1);
 }
