@@ -15,12 +15,36 @@
 }
 
 .u-section-1 .u-image-1 {
-  width: 431px;
-  height: 431px;
-  margin: -309px 0 0 auto;
+  width: 43px;
+  height: 79px;
+  margin: -242px 388px 0 auto;
 }
 
 .u-section-1 .u-image-2 {
+  width: 43px;
+  height: 79px;
+  margin: -113px 285px 0 auto;
+}
+
+.u-section-1 .u-image-3 {
+  width: 43px;
+  height: 79px;
+  margin: -93px 89px 0 auto;
+}
+
+.u-section-1 .u-image-4 {
+  width: 43px;
+  height: 79px;
+  margin: -55px -43px 0 auto;
+}
+
+.u-section-1 .u-image-5 {
+  width: 431px;
+  height: 431px;
+  margin: -121px 0 0 auto;
+}
+
+.u-section-1 .u-image-6 {
   width: 201px;
   height: 146px;
   margin: -383px -36px 60px auto;
@@ -36,7 +60,19 @@
     margin-left: 100px;
   }
 
+  .u-section-1 .u-image-1 {
+    margin-top: -193px;
+  }
+
   .u-section-1 .u-image-2 {
+    margin-top: 0;
+  }
+
+  .u-section-1 .u-image-5 {
+    margin-top: -432px;
+  }
+
+  .u-section-1 .u-image-6 {
     height: 147px;
   }
 }
@@ -53,6 +89,10 @@
 }
 
 @media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 3835px;
+  }
+
   .u-section-1 .u-text-1 {
     margin-left: 300px;
   }
@@ -63,15 +103,23 @@
   }
 
   .u-section-1 .u-image-1 {
-    margin-top: -249px;
+    margin-top: -66px;
   }
 
-  .u-section-1 .u-image-2 {
+  .u-section-1 .u-image-5 {
+    margin-top: -499px;
+  }
+
+  .u-section-1 .u-image-6 {
     margin-top: -316px;
   }
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 3696px;
+  }
+
   .u-section-1 .u-text-1 {
     margin-left: 400px;
   }
@@ -82,12 +130,17 @@
   }
 
   .u-section-1 .u-image-1 {
-    width: 340px;
-    height: 340px;
-    margin-top: -309px;
+    margin-top: -193px;
+    margin-right: 297px;
   }
 
-  .u-section-1 .u-image-2 {
+  .u-section-1 .u-image-5 {
+    width: 340px;
+    height: 340px;
+    margin-top: -432px;
+  }
+
+  .u-section-1 .u-image-6 {
     margin-top: -292px;
   }
 }.u-section-2 {
@@ -608,6 +661,7 @@
 }h1.judul-hoaks {
 	font-family: 'Orbitron', sans-serif;
 }
+/*
 .fake-news-bubble {
 	transform-origin : -100% 50%;
 	animation : zoomzoom 1.5s infinite ease-in-out;
@@ -622,4 +676,34 @@
 	100% {
 		transform: scale(1);
 	}
+}*/
+.dollar-sign-animation {
+    animation-name: slide-up-opacity;
+	animation-iteration-count : infinite;
+    position: relative;
 }
+.dollar-sign-animation.anim1 {
+	animation-duration : 2s;
+}
+.dollar-sign-animation.anim2 {
+	animation-duration : 1.7s;
+}
+.dollar-sign-animation.anim3 {
+	animation-duration : 1.8s;
+}
+.dollar-sign-animation.anim4 {
+	animation-duration : 1.6s;
+}
+@keyframes slide-up-opacity {
+    0% {
+        opacity: 0;
+        bottom: 0px;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        bottom: 200px;
+    }
+} 
