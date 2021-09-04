@@ -78,8 +78,9 @@
 
   .u-section-1 .u-custom-html-4 {
     height: auto;
-    margin-right: 0;
-    margin-left: 840px;
+    margin-top: 20px;
+    margin-right: 55px;
+    margin-left: 785px;
   }
 
   .u-section-1 .u-custom-html-5 {
@@ -110,6 +111,7 @@
   }
 
   .u-section-1 .u-custom-html-4 {
+    margin-right: 0;
     margin-left: 620px;
   }
 
@@ -138,6 +140,7 @@
   }
 
   .u-section-1 .u-custom-html-4 {
+    margin-top: -18px;
     margin-left: 440px;
   }
 
@@ -295,7 +298,7 @@
 
 .u-section-3 .u-slider-1 {
   min-height: 630px;
-  margin-bottom: -608px;
+  margin-bottom: -609px;
   margin-top: -21px;
 }
 
@@ -449,11 +452,21 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 947px;
+  }
+
   .u-section-3 .u-slider-1 {
     height: auto;
   }
 
   .u-section-3 .u-text-3 {
+    margin-right: 125px;
+    margin-left: 434px;
+  }
+
+  .u-section-3 .u-image-1 {
+    margin-top: 20px;
     margin-right: 125px;
     margin-left: 434px;
   }
@@ -490,7 +503,15 @@
 }
 
 @media (max-width: 991px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 100vh;
+  }
+
   .u-section-3 .u-text-3 {
+    margin-left: 214px;
+  }
+
+  .u-section-3 .u-image-1 {
     margin-left: 214px;
   }
 
@@ -555,6 +576,10 @@
   }
 
   .u-section-3 .u-text-3 {
+    margin-left: 34px;
+  }
+
+  .u-section-3 .u-image-1 {
     margin-left: 34px;
   }
 
@@ -630,6 +655,8 @@
   .u-section-3 .u-image-1 {
     width: 340px;
     height: 213px;
+    margin-top: -254px;
+    margin-right: auto;
     margin-left: 0;
   }
 
@@ -732,27 +759,21 @@
     margin-left: 0;
     margin-right: 0;
   }
+
+  .u-section-4 .u-image-1 {
+    margin-top: 20px;
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 575px) {
   .u-section-4 .u-image-1 {
     width: 340px;
     height: 233px;
-    margin-left: 0;
+    margin-top: -370px;
+    margin-right: auto;
   }
-}.u-section-5 {
-  background-image: none;
-}
-
-.u-section-5 .u-sheet-1 {
-  min-height: 120px;
-}
-
-.u-section-5 .u-btn-1 {
-  border-style: none;
-  background-image: none;
-  margin: 94px auto 0;
-  padding: 0;
 }h1.judul-hack {
 	font-family: 'Orbitron', sans-serif;
 }
