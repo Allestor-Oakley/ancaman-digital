@@ -34858,6 +34858,9 @@ a.u-link.u-text-hover-grey-90:hover {
         font-size: 1.25rem;
         margin-top: 20px;
         margin-bottom: 20px;
+        line-height: 1.6;
+        list-icon-spacing: 0.3;
+        list-icon-size: 0.8;
         }
         p.u-small-text
         {
@@ -34986,6 +34989,13 @@ a.u-link.u-text-hover-grey-90:hover {
         {
         color: #ffffff;
         }
+        .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > p.u-large-text,
+        .u-gradient > .u-container-layout > p.u-large-text,
+        .u-image:not(.u-shading) > .u-container-layout > p.u-large-text,
+        p.u-large-text
+        {
+        color: #ffffff;
+        }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > a,
         .u-gradient > .u-container-layout > a,
         .u-image:not(.u-shading) > .u-container-layout > a,
@@ -35043,6 +35053,10 @@ a.u-link.u-text-hover-grey-90:hover {
 
         /** alt-color-rules **/
         .u-shading h1.u-title,.u-overlap-contrast .u-header h1.u-title:not(.u-nav-link):not(.u-btn)
+        {
+        color: #b3b3b3;
+        }
+        .u-shading p.u-large-text,.u-overlap-contrast .u-header p.u-large-text:not(.u-nav-link):not(.u-btn)
         {
         color: #b3b3b3;
         }
@@ -35132,7 +35146,7 @@ a.u-link.u-text-hover-grey-90:hover {
 #judul-hoaks, #contoh-hoaks, #tips-hoaks, #penanganan-hoaks,
 #judul-malware, #contoh-malware, #tips-malware, #penanganan-malware,
 #judul-scam, #contoh-scam, #tips-scam, #penanganan-scam{
-	height : 100vh;
+	/* height : 100vh; */
 }
 /*#footer {
 	position : absolute;
