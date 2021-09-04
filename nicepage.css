@@ -35150,11 +35150,11 @@ a.u-link.u-text-hover-grey-90:hover {
 		height : 100vh;
 	}  
 }
-@media (max-width: 670px) {
-	#judul-hacking, #contoh-hacking, #tips-hacking, #penanganan-hacking,
-	#judul-hoaks, #contoh-hoaks, #tips-hoaks, #penanganan-hoaks,
-	#judul-malware, #contoh-malware, #tips-malware, #penanganan-malware,
-	#judul-scam, #contoh-scam, #tips-scam, #penanganan-scam{
+@media (max-width: 570px) {
+	#penanganan-hacking,
+	,#penanganan-hoaks,
+	,#penanganan-malware,
+	,#penanganan-scam{
 		height : 120vh;
 	}  
 }
