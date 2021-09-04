@@ -891,32 +891,44 @@
   width: 570px;
   height: 391px;
   animation-duration: 1000ms;
-  margin: 83px auto 0 -56px;
+  margin: 115px auto 0 -49px;
 }
 
 .u-section-4 .u-text-2 {
   font-size: 1.25rem;
-  margin: -355px -80px 60px 570px;
+  margin: -403px 0 0 600px;
 }
 
 @media (max-width: 1199px) {
+  .u-section-4 .u-image-1 {
+    margin-top: -172px;
+  }
+
   .u-section-4 .u-text-2 {
     width: auto;
     margin-top: 151px;
     margin-left: 0;
-    margin-right: 0;
   }
 }
 
 @media (max-width: 991px) {
+  .u-section-4 .u-image-1 {
+    margin-top: -734px;
+  }
+
   .u-section-4 .u-text-2 {
     margin-top: 103px;
   }
 }
 
 @media (max-width: 767px) {
+  .u-section-4 .u-image-1 {
+    margin-top: -6362px;
+  }
+
   .u-section-4 .u-text-2 {
     margin-top: 55px;
+    margin-left: 100px;
   }
 }
 
@@ -928,11 +940,13 @@
   .u-section-4 .u-image-1 {
     width: 340px;
     height: 233px;
+    margin-top: -6176px;
     margin-left: 0;
   }
 
   .u-section-4 .u-text-2 {
     margin-top: 40px;
+    margin-left: 0;
   }
 }h1.judul-hack {
 	font-family: 'Orbitron', sans-serif;
