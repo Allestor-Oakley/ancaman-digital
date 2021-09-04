@@ -212,7 +212,45 @@ background-color: #ffffff !important
 }</style>
     
     
-    
+    <footer class="u-clearfix u-footer u-grey-80" id="footer"><div class="u-align-left u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-clearfix u-custom-html u-expanded-width u-custom-html-1"><!-- <script>
+const next_button = document.querySelector('.custom-carousel a[data-u-slide="next"]');
+const prev_button = document.querySelector('.custom-carousel a[data-u-slide="prev"]');
+
+prev_button.style.opacity = "0";
+
+const slide_count = {
+    "Hack" : 7,
+    "Hoaks" : 5,
+    "Malware" : 8,
+    "Scam" : 5
+}
+
+let page_index  = 1;
+
+function change_slide(increment) {
+    page_index += increment;
+    let current_sc = slide_count[document.title];
+    if (page_index == current_sc) {
+        next_button.style.visibility = "hidden";
+        next_button.style.opacity = "0";
+    }
+    else if (page_index ==  1) {
+        prev_button.style.visibility = "hidden";
+        prev_button.style.opacity = "0";
+    }
+    else {
+        prev_button.style.visibility = "visible";
+        next_button.style.visibility = "visible";
+        next_button.style.opacity = "1";
+        prev_button.style.opacity = "1";
+    }
+}
+
+next_button.addEventListener("click", ()=> change_slide(1));
+prev_button.addEventListener("click", ()=> change_slide(-1));
+</script> --></div>
+      </div></footer>
     <section class="u-backlink u-clearfix u-grey-80">
       <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
         <span>Website Templates</span>
