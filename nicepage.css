@@ -35107,21 +35107,21 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-custom-html-1 {
-  margin-bottom: 0;
   min-height: 66px;
-  margin-top: 27px;
+  margin: 27px 101px 0 0;
 }
 
 .u-footer .u-text-1 {
-  margin: -46px auto 47px;
+  margin: -45px auto 47px;
 }
 @media (max-width: 1199px) {
   .u-footer .u-custom-html-1 {
     height: auto;
+    margin-right: 0;
   }
 
   .u-footer .u-text-1 {
-    margin-top: -46px;
+    margin-top: -45px;
   }
 }
 
@@ -35134,10 +35134,10 @@ a.u-link.u-text-hover-grey-90:hover {
 #judul-scam, #contoh-scam, #tips-scam, #penanganan-scam{
 	height : 100vh;
 }
-#footer {
+/*#footer {
 	position : absolute;
 	display : none;
-}
+}*/
 .attribution {
 	opacity : 0;
 	transition : opacity 0.5s;
